@@ -76,13 +76,21 @@
         body .social-block .social-link svg {
             fill: #fff;
         }
+        @media(max-width: 767px) {
+            .hide-on-mobile {
+                display: block;
+            }
+            .show-on-mobile {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
     <div id="bg-blur-image"></div>
     <div id="home-wrapper">
         <img id="home-image" src="https://media-exp1.licdn.com/dms/image/C4D03AQE70PVFzKg1DA/profile-displayphoto-shrink_800_800/0?e=1612396800&v=beta&t=v4Uk793BJ8hwowQrFbe4W0inL1hYOXeOHPXPmCtIwOQ"/>
-        <h1>Estefanía Suñer | Arquitecta Técnica</h1>
+        <h1>Estefanía Suñer <br class="show-on-mobile"/><span class="hide-on-mobile">|</span> Arquitecta Técnica</h1>
         <div class="social-block">
             <a href="https://www.linkedin.com/in/estefaniasuner/" class="social-link">
                 <svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.02 512.02" style="enable-background:new 0 0 512.02 512.02;" xml:space="preserve">
