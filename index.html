@@ -78,7 +78,15 @@
         body .social-block .social-link svg {
             fill: #fff;
         }
-        @media(max-width: 767px) {
+        @media(min-width: 767px) {
+            .hide-on-mobile {
+                display: block;
+            }
+            .show-on-mobile {
+                display: none;
+            }
+        }
+        @media(max-width: 766px) {
             .hide-on-mobile {
                 display: none;
             }
